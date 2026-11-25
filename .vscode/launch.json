@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:Chinook}/ChinookModels",
+      "name": "Debug chinook-store-export (ChinookModels)",
+      "target": "chinook-store-export",
+      "configuration": "debug",
+      "preLaunchTask": "swift: Build Debug chinook-store-export (ChinookModels)"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:Chinook}/ChinookModels",
+      "name": "Release chinook-store-export (ChinookModels)",
+      "target": "chinook-store-export",
+      "configuration": "release",
+      "preLaunchTask": "swift: Build Release chinook-store-export (ChinookModels)"
+    }
+  ]
+}
